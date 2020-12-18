@@ -2,13 +2,11 @@
 
 int main()
 {
-    float c;
+    float celcius;
     //Convert Centigrade to Fahrenheit
     printf("Enter The Centigrade Value: ");
-    scanf("%f", &c);
-
-    printf("Fahrenheit = %.2f", ((1.8*c)+32));
+    scanf("%f", &celcius);
+    printf("Temperature in Fahrenheit = %.2f", ((1.8*celcius)+32));
 
     return 0;
 }
-
