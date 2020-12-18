@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main()
+{
+    float c;
+    //Convert Centigrade to Fahrenheit
+    printf("Enter The Centigrade Value: ");
+    scanf("%f", &c);
+
+    printf("Fahrenheit = %.2f", ((1.8*c)+32));
+
+    return 0;
+}
+
